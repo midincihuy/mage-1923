@@ -32,3 +32,6 @@ errors/local.xml
 /skin/frontend/o-shop/o-shop/scss/.sass-cache/
 /wp/wp-content/uploads/
 wp/wp-config.php
+/media/downloadable/
+/media/css
+/media/js

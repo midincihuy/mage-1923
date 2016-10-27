@@ -238,7 +238,9 @@
 # multiple website/domain (setting dulu di /etc/hosts untuk localhost) 
 #########
 
-SetEnvIf Host new\.mage\.midin MAGE_RUN_CODE=new_web
-SetEnvIf Host new\.mage\.midin MAGE_RUN_TYPE=website
-SetEnvIf Host ^192\.mage\.midin MAGE_RUN_CODE=new_web
+SetEnvIf Host new\.mage\.midin MAGE_RUN_CODE=n_store_v
+SetEnvIf Host new\.mage\.midin MAGE_RUN_TYPE=store
+
+# alternatif lain
+SetEnvIf Host ^192\.mage\.midin MAGE_RUN_CODE=base
 SetEnvIf Host ^192\.mage\.midin MAGE_RUN_TYPE=website
