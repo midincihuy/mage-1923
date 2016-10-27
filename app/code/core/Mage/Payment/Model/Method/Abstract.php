@@ -66,8 +66,8 @@ abstract class Mage_Payment_Model_Method_Abstract extends Varien_Object
     protected $_isGateway                   = false;
     protected $_canOrder                    = false;
     protected $_canAuthorize                = false;
-    protected $_canCapture                  = false;
-    protected $_canCapturePartial           = false;
+    protected $_canCapture                  = true;
+    protected $_canCapturePartial           = true;
     protected $_canCaptureOnce              = false;
     protected $_canRefund                   = false;
     protected $_canRefundInvoicePartial     = false;
