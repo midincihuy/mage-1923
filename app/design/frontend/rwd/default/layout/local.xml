@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<default>
+		<reference name="right">
+			<block type="cms/block" name="feedjit_name" as="feedjit_alias">
+				<action method="setBlockId">
+					<block_id>feedjit</block_id>
+				</action>
+			</block>
+		</reference>
+	</default>
+</layout>
