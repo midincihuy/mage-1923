@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<config>
+	<modules>
+		<Midin_CustomerList>
+			<version>0.0.1</version>
+		</Midin_CustomerList>
+	</modules>
+	<global>
+		<blocks>
+			<midin_customerlist>
+				<class>Midin_CustomerList_Block</class>
+			</midin_customerlist>
+		</blocks>
+		<helpers>
+			<midin_customerlist>
+				<class>Midin_CustomerList_Helper</class>
+			</midin_customerlist>
+		</helpers>
+		<models>
+			<midin_customerlist>
+				<class>Midin_CustomerList_Model</class>
+			</midin_customerlist>
+		</models>
+	</global>
+</config>

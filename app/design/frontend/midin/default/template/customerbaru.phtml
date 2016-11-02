@@ -1,0 +1,23 @@
+<table border="1" cellpadding='1' cellspacing='1'>
+	<thead>
+		<tr>
+			<td>ID</td>
+			<td>Email</td>
+			<td>Nama</td>
+		</tr>
+	</thead>
+	<tbody>
+		<?php 
+			$customerbaru = $this->blockCustomer();
+			foreach($customerbaru as $k=>$v){
+		?>
+		<tr>
+			<td><?php echo $v['id_customer']?></td>
+			<td><?php echo $v['email_customer']?></td>
+			<td><?php echo $v['nama_customer']?></td>
+		</tr>
+		<?php
+			}
+		?>
+	</tbody>
+</table>
