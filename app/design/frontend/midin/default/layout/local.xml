@@ -94,6 +94,11 @@
 		<reference name="left">
 			<remove name="left.newsletter"/>
 		</reference>
+
+		
+		<reference name="content">
+			<block type="midin_productbaru/bproductbaru" name="productbaruname"  as="productbarualias" template="productbaru.phtml"/>
+		</reference>
 	</default>
 
 	<cms_index_index>

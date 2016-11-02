@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Midin_ProductBaru>
+			<version>0.0.1</version>
+		</Midin_ProductBaru>
+	</modules>
+	<global>
+		<models>
+			<midin_productbaru>
+				<class>Midin_ProductBaru_Model</class>
+			</midin_productbaru>
+		</models>
+		<helpers>
+			<midin_productbaru>
+				<class>Midin_ProductBaru_Helper</class>
+			</midin_productbaru>
+		</helpers>
+		<blocks>
+			<midin_productbaru>
+				<class>Midin_ProductBaru_Block</class>
+			</midin_productbaru>
+		</blocks>
+	</global>
+
+
+	<frontend>
+		<routers>
+			<midin_productbaru>
+				<use>standard</use>
+				<args>
+					<module>Midin_ProductBaru</module>
+					<frontName>midin</frontName>
+				</args>
+			</midin_productbaru>
+		</routers>
+	</frontend>
+</config>

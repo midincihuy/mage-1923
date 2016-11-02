@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<config>
+	<modules>
+		<Midin_Latihan>
+			<version>0.0.1</version>
+		</Midin_Latihan>
+	</modules>
+
+	<global>
+		<models>
+			<midin_latihan>
+				<class>Midin_Latihan_Model</class>
+			</midin_latihan>
+		</models>
+		<helpers>
+			<midin_latihan>
+				<class>Midin_Latihan_Helper</class>
+			</midin_latihan>
+		</helpers>
+		<blocks>
+			<midin_latihan>
+				<class>Midin_Latihan_Block</class>
+			</midin_latihan>
+		</blocks>
+		
+	</global>
+</config>

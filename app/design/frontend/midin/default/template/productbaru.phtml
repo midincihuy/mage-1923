@@ -1,0 +1,32 @@
+<?php
+
+echo get_class($this);
+
+?>
+<table border="1">
+	<thead>
+		<tr>
+			<td>ID</td>
+			<td>Nama</td>
+			<td>Harga</td>
+			<td>Url Product</td>
+		</tr>
+	</thead>
+	<tbody>
+		<?php 
+
+			$products = $this->blockProduct();
+			foreach($products as $data){
+		?>
+		<tr>
+			<td><?php echo $data['idproduct']?></td>
+			<td><?php echo $data['nama']?></td>
+			<td><?php echo $data['harga']?></td>
+			<td><?php echo $data['url']?></td>
+		</tr>
+		<?php
+	}
+	
+		?>
+	</tbody>
+</table>

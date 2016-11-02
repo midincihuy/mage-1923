@@ -50,11 +50,15 @@
                 <div class="col-left sidebar"><?php echo $this->getChildHtml('left') ?></div>
             </div>
         </div>
-        <?php echo $this->getChildHtml('footer') ?>
         <?php echo $this->getChildHtml('global_cookie_notice') ?>
         <?php echo $this->getChildHtml('before_body_end') ?>
     </div>
 </div>
+<footer id="footer">
+    <div class="container">
+    <?php echo $this->getChildHtml('footer') ?>
+    </div>
+</footer>
 <?php echo $this->getAbsoluteFooter() ?>
 </body>
 </html>
