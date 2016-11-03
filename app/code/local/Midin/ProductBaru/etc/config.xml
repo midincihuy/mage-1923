@@ -21,6 +21,37 @@
 				<class>Midin_ProductBaru_Block</class>
 			</midin_productbaru>
 		</blocks>
+
+		<events>
+            <sales_order_place_before>
+                <observers>
+                    <midin_productbaru>
+                        <type>singleton</type>
+                        <class>midin_productbaru/observer</class>
+                        <method>test</method>
+                    </midin_productbaru>
+                </observers>
+            </sales_order_place_before>
+            <checkout_cart_product_add_after>
+            	<observers>
+                    <midin_productbaru>
+                        <type>singleton</type>
+                        <class>midin_productbaru/observer</class>
+                        <method>checkoutpesan</method>
+                    </midin_productbaru>
+                </observers>
+            </checkout_cart_product_add_after>
+			<checkout_cart_save_after>
+				<observers>
+					<midin_productbaru>
+						<type>singleton</type>
+						<class>midin_productbaru/observer</class>
+						<method>redirectlogin</method>
+					</midin_productbaru>
+				</observers>
+			</checkout_cart_save_after>
+        </events>
+
 	</global>
 
 
